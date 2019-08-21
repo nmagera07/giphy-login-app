@@ -4,7 +4,7 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "knexfile.js",
   "scripts": {
-    "run": "nodemon index.js",
+    "server": "nodemon index.js",
     "start": "node index.js"
   },
   "repository": {
