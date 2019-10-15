@@ -34,11 +34,6 @@ module.exports = {
       tableName: 'dbmigrations',
     },
     seeds: { directory: './database/seeds' },
-    
-  migrations: {
-      directory: './database/migrations',
-      tableName: 'users'
-    },
   },
     testing: {
       client: 'pg',
