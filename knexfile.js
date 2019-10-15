@@ -18,7 +18,7 @@ module.exports = {
     },
   },
    production: {
-    client: 'postgresql',
+    client: 'pg',
     connection: process.env.DATABASE_URL,
     useNullAsDefault: true,
     migrations: {
@@ -33,7 +33,7 @@ module.exports = {
     },
   },
     testing: {
-      client: 'postgresql',
+      client: 'pg',
       connection: {
         host: process.env.DB_HOST,
         port: 5431,
