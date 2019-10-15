@@ -36,6 +36,7 @@ const Credentials = (props) => {
             // .post('http://localhost:5000/api/register', newUser)
             .post('https://nmagera-giphy-app-2.herokuapp.com/register', newUser)
             .then(response => {
+                
                 console.log(response)
                 localStorage.setItem('token', response.data.token)
                 props.history.push('/funstuff')
